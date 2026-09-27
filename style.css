@@ -1,0 +1,224 @@
+body {
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+    color: #000;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+/* sidebar */
+.sidecontent{
+    height: 100vh;
+    width: 250px;
+    background-color: rgb(100, 59, 128);
+    position: fixed;
+    left: 0;
+    top: 0;
+    text-align: center;
+    padding: ;
+}
+nav img{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    margin: 20px 20px;
+    border: 6px solid rgb(120,96,143) ;
+}
+nav a{
+    display: block;
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: 20px 20px;
+    padding: 10px;
+}
+nav a:hover{
+    color: rgb(175, 94, 94);
+}
+
+
+
+
+
+/* main content */
+.maincontent{
+    margin-left: 250px;
+    background-color: rgb(142,121,168);
+    min-height: 100vh;
+    padding: 80px 70px;
+}
+section{
+    border-bottom: 1px solid rgb(100, 59, 128);
+}
+.text{
+    font-weight: normal;
+    word-spacing: 3px;
+    margin-bottom: 12px;
+    font-size: medium;
+}
+#about{
+    max-width: 850px;
+    padding: 40px 0 40px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+#about h1{
+    color: rgb(114, 68, 68);
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+    font-size: 45px;
+}
+#about h3{
+    color: rgb(100, 59, 128);
+    margin-bottom:10px ;
+}
+#about h3 a{
+    color: goldenrod;
+}
+.socialicon a{
+    display: inline-block;
+    margin: 30px;
+    color: #2B1D17;
+    font-size: 40px;
+}
+.socialicon a:hover{
+    color: gainsboro;
+}
+/* education */
+#education{
+    padding:100px ;
+    margin-bottom: 80px;
+}
+#education h2{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: rgb(77, 49, 95);
+    font-weight: bolder;
+    font-size: 40px;
+
+}  
+.degree h3{
+    font-size: medium;
+    color: rgb(77, 49, 95);
+    margin-bottom: 8px;
+}  
+.degree .date{
+    float: right;
+    color: rgb(70, 44, 87);
+    
+}
+.degree .detail{
+    margin-bottom: 40px;
+}
+/* skill section */
+#skill{
+    padding:100px ;
+    margin-bottom: 80px;
+}
+#skill h2{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: rgb(77, 49, 95);
+    font-weight: bolder;
+    font-size: 40px;
+
+}  
+#skill h3{
+    font-size: medium;
+    color: rgb(77, 49, 95);
+    margin-bottom: 8px;
+}  
+.socialicon i{ 
+    display: block;
+    margin: 30px;
+    color: #2B1D17;
+    font-size: 35px;
+}
+.socialicon i:hover{
+    color: gainsboro;
+}
+ul li{
+   padding-left: 20px;
+   list-style-type: square;
+}
+.write li{
+       margin-top:10px 0 ;
+       margin-bottom: 20px;
+       font-size: 19px;
+       padding-left: 30px;
+}
+/* experience section */
+#experience{
+        padding:100px ;
+         margin-bottom: 80px;
+}
+
+#experience h2{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: rgb(77, 49, 95);
+    font-weight: bolder;
+    font-size: 40px;
+
+}  
+.exp h3{
+    font-size: medium;
+    color: rgb(77, 49, 95);
+    margin-bottom: 8px;
+}  
+.exp .date{
+    float: right;
+    color: rgb(70, 44, 87);
+    
+}
+.exp .detail{
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+    
+/* interest section */
+#interest{
+        padding:100px ;
+         margin-bottom: 80px;
+}
+
+#interest h2{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: rgb(77, 49, 95);
+    font-weight: bolder;
+    font-size: 40px;
+
+} 
+#interest p{
+    margin-top: 40px;
+    margin-bottom: 80px;
+} 
+/* award */
+
+#award{
+        padding:100px ;
+         margin-bottom: 80px;
+}
+
+#award h2{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: rgb(77, 49, 95);
+    font-weight: bolder;
+    font-size: 40px;
+
+} 
+#award p{
+    margin-top: 40px;
+    margin-bottom: 80px;
+    padding-left: 20px;
+} 
+#award i{
+    color: rgb(77, 39, 39);
+    font-weight: bold;
+}
